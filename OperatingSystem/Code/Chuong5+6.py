@@ -119,7 +119,7 @@ def second_chance():
         print (store, refer_bit)
     print PF, R
 
-LRU()
+
 
 
 
