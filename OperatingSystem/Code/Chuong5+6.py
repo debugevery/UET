@@ -4,81 +4,125 @@ import numpy
 
 array = [7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1]
 frames = 3
-#note neu co cac gia tri giong nhau trong luc khoi tao store => tu xu ly
+
 def FIFO():
-    store = array[0:frames]
-    result = [False] * frames
+    store = []
+    result = []
     index = 0
-    PF = frames
+    PF = 0
     R = 0
-    print store
-    for i in range(frames, len(array)):
-        if not array[i] in store:
-            result.append(False)
-            store[index] = array[i]
-            index = (index + 1) % frames
-            PF = PF + 1
+    for i in range(len(array)):
+        if len(store) < frames:
+            if not array[i] in store:
+                result.append(False)
+                store.append(array[i])
+                index = (index + 1) % frames
+                PF +=1
+            else:
+                result.append(True)
+                index = store.index(array[i])
+                R +=1
         else:
-            result.append(True)
-            R = R + 1
+            if not array[i] in store:
+                result.append(False)
+                store[index] = array[i]
+                index = (index + 1) % frames
+                PF = PF + 1
+            else:
+                result.append(True)
+                R = R + 1
         print store
 
     print result
     print ("Page Fault: ", PF)
     print ("R: ", R)
 
-def Optimal(): #deo hieu, luoi meo code nua
-    store = array[0:frames]
-    stack = store
-    result = [False] * frames
-    index = 0
-    PF = frames
-    R = 0
-    print store
-    for i in range(frames, len(array)):
-        if not array[i] in store:
-            result.append(False)
-            new_array = array[i + 1:len(array)]
-            store[index] = array[i]
-            PF = PF + 1
-        else:
-            result.append(True)
-            R = R + 1
-        print store
-
-    print result
-    print ("Page Fault: ", PF)
-    print ("R: ", R)
 
 def LRU():
-    store = array[0:frames]
+    store = []
     stack =[]
-    for i in range(0, frames):
-        stack.insert(0, array[i])
-    result = [False] * frames
+    result = []
     index = 0
-    PF = frames
+    PF = 0
     R = 0
-    print store
-    for i in range(frames, len(array)):
-        if not array[i] in store:
-            result.append(False)
-            index = store.index(stack.pop())
-            stack.insert(0, array[i])
-            store[index] = array[i]
-            PF = PF + 1
+    for i in range(len(array)):
+        if (len(store) < frames):
+            if not array[i] in store:
+                result.append(False)
+                store.append(array[i])
+                stack.insert(0, array[i])
+                PF += 1
+            else:
+                result.append(True)
+                stack.remove(array[i])
+                stack.insert(0, array[i])
+                R = R + 1
         else:
-            result.append(True)
-            stack.remove(array[i])
-            stack.insert(0, array[i])
-            R = R + 1
+            if not array[i] in store:
+                result.append(False)
+                index = store.index(stack.pop())
+                stack.insert(0, array[i])
+                store[index] = array[i]
+                PF = PF + 1
+            else:
+                result.append(True)
+                stack.remove(array[i])
+                stack.insert(0, array[i])
+                R = R + 1
         print store
+
 
     print result
     print ("Page Fault: ", PF)
     print ("R: ", R)
 
-FIFO()
+def second_chance():
+    store = []
+    result = []
+    refer_bit = [0] * frames
+    index = 0
+    PF = 0
+    R = 0
+
+    for i in range(len(array)):
+        if (len(store) < frames):
+            if (array[i] not in store):
+                store.append(array[i])
+                refer_bit[index] = 1
+                index = (index + 1) % frames
+                ++PF
+                result.append(False)
+            else:
+                index = store.index(array[i])
+                refer_bit[index] = 1
+                ++R
+                result.append(True)
+        else:
+            if (array[i] not in store):
+                while (True):
+                    if refer_bit[index] is 1:
+                        refer_bit[index] = 0
+                        index = (index + 1) % frames
+                    elif refer_bit[index] is 0:
+                        store[index] = array[i]
+                        refer_bit[index] = 1
+                        index = (index + 1) % frames
+                        PF += 1
+                        result.append(False)
+                        break
+            else:
+                new_index = store.index(array[i])
+                refer_bit[new_index] = 1
+                R += 1
+                result.append(True)
+
+        print (store, refer_bit)
+    print PF, R
+
+LRU()
+
+
+
 
 
 
