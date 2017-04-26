@@ -2,7 +2,7 @@ import math
 import numpy
 
 
-array = [7,0,1,2,0,3,0,4,2,3,0,3,2,1,2,0,1,7,0,1]
+array = [1, 2, 3, 4, 1, 2, 5, 1, 2, 3, 4, 5]
 frames = 3
 
 def FIFO():
@@ -120,9 +120,7 @@ def second_chance():
     print PF, R
 
 
-
-
-
+FIFO()
 
 
 
