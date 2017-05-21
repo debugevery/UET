@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/RawSocket.iml" filepath="$PROJECT_DIR$/RawSocket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Rawsocket.iml" filepath="$PROJECT_DIR$/Rawsocket.iml" />
     </modules>
   </component>
 </project>

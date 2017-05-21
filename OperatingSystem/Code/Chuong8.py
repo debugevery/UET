@@ -1,9 +1,9 @@
 import numpy as np
 
-max = 199
+max = 559
 min = 0
-current = 53
-queue = [98, 183, 37, 122, 14, 124, 65, 67]
+current = 123
+queue = [83, 47, 316, 124, 42, 96, 3, 149, 211, 43]
 
 def FCFS():
     seek_distance = 0
