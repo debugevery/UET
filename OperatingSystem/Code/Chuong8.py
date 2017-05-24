@@ -99,4 +99,4 @@ def CLOOK():
 
     print a
 
-CLOOK()
+FCFS()
