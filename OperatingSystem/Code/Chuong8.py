@@ -1,9 +1,9 @@
 import numpy as np
 
-max = 559
+max = 199
 min = 0
-current = 123
-queue = [83, 47, 316, 124, 42, 96, 3, 149, 211, 43]
+current = 53
+queue = [98, 183, 37, 122, 14]
 
 def FCFS():
     seek_distance = 0
@@ -99,4 +99,4 @@ def CLOOK():
 
     print a
 
-FCFS()
+SCAN()

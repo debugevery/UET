@@ -19,7 +19,7 @@ def linked_list_allocation():
     pointer_size = 4;
     block_size = 2 * pow(2, 10)
     data = block_size - pointer_size
-    position = 15.5 * pow(2, 10)
+    position = 118 * pow(2, 10)
     block = int(position / data)
     offset = position % data
     print (block, offset)
@@ -39,7 +39,7 @@ def indexed_allocation_onelv():
 def indexed_allocation_twolv():
     block_size = 4 * pow(2, 10)
     pointer_size = 4
-    position = 15 * pow(2, 10)
+    position = 12 * pow(2, 20)
     data = block_size - pointer_size
     other_data = block_size / pointer_size
 
@@ -54,7 +54,7 @@ def indexed_allocation_twolv():
 def linked_index_allocation():
     block_size = 2 * pow(2, 10)
     pointer_size = 4
-    position = 15.5 * pow(2, 20)
+    position = 128 * pow(2, 10)
     data = block_size - pointer_size
     other_data = block_size / pointer_size - 1
 
@@ -67,10 +67,10 @@ def linked_index_allocation():
     print(block, outer_index, inner_index, offset)
 
 def UNIX_system():
-    block_size = 4 * pow(2, 10)
+    block_size = pow(2, 10)
     pointer_size = 4
     data = block_size/pointer_size
-    position = 21 * pow(2, 10)
+    position = 54592
 
     num_direct_pointer = 12
     num_single_indirect = 1
@@ -118,4 +118,4 @@ def UNIX_system():
 
 
 
-UNIX_system()
+linked_list_allocation()

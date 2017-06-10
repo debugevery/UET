@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f05370b-e0dc-45b8-b88d-0c1654bd3631" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../.~lock.Đáp-án-câu-hỏi-OS2.xlsx#" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ArtificialIntelligence/Project" afterPath="$PROJECT_DIR$/../../ArtificialIntelligence/Project" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../MậtOng/BT_nhom5_OOAD_K55CA/Source Code/MoneyManager" afterPath="$PROJECT_DIR$/../../MậtOng/BT_nhom5_OOAD_K55CA/Source Code/MoneyManager" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../MậtOng/BT_nhom5_OOAD_K55CA/Source Code/android-actionbar" afterPath="$PROJECT_DIR$/../../MậtOng/BT_nhom5_OOAD_K55CA/Source Code/android-actionbar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../Lecture/slide07.pdf" afterPath="$PROJECT_DIR$/../Lecture/slide07.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../ComputerNetwork/Rawsocket/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../ComputerNetwork/Rawsocket/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chuong7.py" afterPath="$PROJECT_DIR$/Chuong7.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Chuong8.py" afterPath="$PROJECT_DIR$/Chuong8.py" />
@@ -19,9 +19,9 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/Code$Chuong7_8.coverage" NAME="Chuong7+8 Coverage Results" MODIFIED="1495612641893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$Chuong7_8.coverage" NAME="Chuong7+8 Coverage Results" MODIFIED="1495809327730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Code$Chuong5_6.coverage" NAME="Chuong5+6 Coverage Results" MODIFIED="1492137867074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Code$Chuong7.coverage" NAME="Chuong7 Coverage Results" MODIFIED="1495618036298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Code$Chuong7.coverage" NAME="Chuong7 Coverage Results" MODIFIED="1495809083711" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -29,26 +29,21 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Chuong7.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Chuong7.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Chuong7.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-              <folding>
-                <element signature="e#33#194#0" expanded="false" />
-                <element signature="e#220#481#0" expanded="false" />
-                <element signature="e#762#1040#0" expanded="false" />
-                <element signature="e#1078#1504#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-1810">
+              <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Chuong8.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Chuong8.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Chuong8.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1160">
-              <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="120">
+              <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -72,8 +67,8 @@
         <option value="$PROJECT_DIR$/result" />
         <option value="$PROJECT_DIR$/Chuong5+6.py" />
         <option value="$PROJECT_DIR$/Chuong7+8.py" />
-        <option value="$PROJECT_DIR$/Chuong8.py" />
         <option value="$PROJECT_DIR$/Chuong7.py" />
+        <option value="$PROJECT_DIR$/Chuong8.py" />
       </list>
     </option>
   </component>
@@ -84,9 +79,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="-4" />
-    <option name="width" value="1920" />
-    <option name="height" value="1084" />
+    <option name="x" value="1116" />
+    <option name="y" value="138" />
+    <option name="width" value="1102" />
+    <option name="height" value="609" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -105,7 +101,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -120,6 +115,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -140,7 +136,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Chuong7">
+  <component name="RunManager" selected="Python.Chuong7+8">
     <configuration default="false" name="Chuong5+6" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -387,8 +383,8 @@
     </list>
     <recent_temporary>
       <list size="3">
-        <item index="0" class="java.lang.String" itemvalue="Python.Chuong7" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Chuong7+8" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Chuong7+8" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Chuong7" />
         <item index="2" class="java.lang.String" itemvalue="Python.Chuong5+6" />
       </list>
     </recent_temporary>
@@ -452,14 +448,13 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="-4" width="1920" height="1084" extended-state="6" />
-    <editor active="true" />
+    <frame x="1116" y="138" width="1102" height="609" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09791667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17059891" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3781855" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2895005" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28853756" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32925585" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -490,7 +485,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -499,12 +494,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#194#0" expanded="false" />
-            <element signature="e#220#481#0" expanded="false" />
-            <element signature="e#762#1040#0" expanded="false" />
-            <element signature="e#1078#1504#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -512,12 +502,31 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#33#194#0" expanded="false" />
-            <element signature="e#220#481#0" expanded="false" />
-            <element signature="e#762#1040#0" expanded="false" />
-            <element signature="e#1078#1504#0" expanded="false" />
-          </folding>
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chuong8.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chuong7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Chuong7.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -532,12 +541,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#33#194#0" expanded="false" />
-            <element signature="e#220#481#0" expanded="false" />
-            <element signature="e#762#1040#0" expanded="false" />
-            <element signature="e#1078#1504#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -566,12 +570,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="6" column="17" lean-forward="false" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding>
-            <element signature="e#33#194#0" expanded="false" />
-            <element signature="e#220#481#0" expanded="false" />
-            <element signature="e#762#1040#0" expanded="false" />
-            <element signature="e#1078#1504#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -656,24 +655,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chuong8.py">
+    <entry file="file://$PROJECT_DIR$/Chuong7.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1160">
-          <caret line="5" column="13" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="-1810">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Chuong7.py">
+    <entry file="file://$PROJECT_DIR$/Chuong8.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="88" column="25" lean-forward="true" selection-start-line="88" selection-start-column="25" selection-end-line="88" selection-end-column="25" />
-          <folding>
-            <element signature="e#33#194#0" expanded="false" />
-            <element signature="e#220#481#0" expanded="false" />
-            <element signature="e#762#1040#0" expanded="false" />
-            <element signature="e#1078#1504#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="6" column="0" lean-forward="true" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
